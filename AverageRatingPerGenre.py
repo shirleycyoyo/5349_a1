@@ -22,7 +22,7 @@ if __name__ == "__main__":
     input_path = args.input
     output_path = args.output
     
-    parts = sc.textFile(input_path + "ratings.csv")
+    parts = sc.textFile(input_path + "try1.csv")
     
     collectParts = parts.map(extractRating)
     
